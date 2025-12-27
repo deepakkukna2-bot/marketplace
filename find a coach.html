@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .find-box{
+            width: 90%;
+            height: 500px;
+            margin:100px 0 0 65px;
+            background-color: rgb(233, 220, 204);
+            border-radius: 20px;
+        }
+        .find-box img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+        #search-buton {
+            font-size: 20px;
+            background-color: rgb(39, 2, 173);
+            color: #fff;
+            border: none;
+            padding:15px 25px 15px 20px;
+            border-radius: 50px;
+            position: absolute;
+            margin-left: 550px;
+            margin-top: 275px;
+            cursor: pointer;
+        }
+
+        #search-buton:hover {
+            background-color: rgb(65, 65, 238);
+        }
+        .find-a-coach{
+            text-align: center;
+            margin-top: 100px;
+            font-size: 20px;
+            color: rgb(1, 1, 41);
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .find-a-coach h3{
+            font-size: 30px;
+            font-weight: 400;
+            font-size: 30px;
+        }
+        .find-a-coach p{
+            margin-top: -10px;
+            font-weight: 300;
+            font-size: 15px;
+        }
+
+        .find-a-box{
+            width: 90%;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+            gap: 50px;
+            margin-left: 60px;
+            background-color: rgb(239, 241, 241);
+            border-radius: 20px;
+        }
+        .book-a-call img{
+            width: 500px;
+        }
+
+        .proimg{
+            display: flex;
+        }
+        .proimg img{
+            width: 100px;
+            height: 25px;
+        }
+        .proimg h5{
+            margin-left:5px;
+            margin-top: 5px;
+            color: rgb(216, 54, 54);
+            font-size: 15px;
+        }
+
+        .about-coachings{
+           width: 90%;
+           height: 650px;
+           margin-left: 60px;
+           margin-top: 60px;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .asked-questions{
+             display: grid;
+            grid-template-columns: repeat(3,1fr);
+            margin: 20px 40px;
+            gap: 40px;
+
+        }
+
+        .asked-question{
+            width: 350px;
+            height: 300px;
+            display: flex;
+            gap: 18px;
+        }
+
+        .questions-mark{
+            width: 40px;
+            height: 40px;
+            padding: 0 15px 0 15px;
+            border-radius: 8px;
+            margin-top: -5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: #000;
+            font-size: 18px;
+        }
+
+        .frequently h3{
+             margin: 0 0 8px;
+            font-size: 18px;
+            color: #0b1c3f;
+        }
+        .frequently p{
+            margin: 0;
+            font-size: 18px;
+            color: #353434;
+            line-height: 1.5;
+        }
+
+         .search-btn {
+            font-size: 18px;
+            background-color: rgb(39, 2, 173);
+            color: #fff;
+            border: none;
+            padding:10px 15px 10px 15px;
+            border-radius: 50px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .search-btn:hover {
+            background-color: rgb(65, 65, 238);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button id="search-buton">Search Coaches</button>
+    </div>
+    <div class="find-box">
+        <img src="C:\Users\Dell\OneDrive\Pictures\Screenshots\Screenshot 2025-12-15 204829.png" alt="">
+    </div>
+
+    <div class="find-a-coach">
+        <h3>Whether you're seeking clarity, <br> growth, or support through change,</h3>
+        <p style="font-weight: 300;"><i>Find Your Coach</i> makes it easy to connect with the right expert to <br> move you forward.</p>
+    </div>
+
+    <div class="find-a-box">
+        <div class="book-a-call">
+            <img src="C:\Users\Dell\Downloads\find a coach.webp" alt="">
+        </div>
+        <div>
+            <div class="proimg">
+                <img src="C:\Users\Dell\Downloads\avatars.webp" alt="">
+                <h5>+ 1,081 more</h5>
+            </div>
+            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;margin-top: 0;font-size: 16px;">Browse a wide selection of verified coaches based on your goals, <br> budget, and preferences - then book a chemistry call to ensure the <br> fit is right before you commit. When you're ready, pay securely and <br> get started - all in one streamlined experience. Less searching, <br> more progress.</p>
+            <button class="search-btn">Search Coaches</button>
+        </div>
+    </div>
+
+    <div style="text-align: center;font-size: 20px;color: rgb(1, 1, 34);margin-top: 100px;">
+        <h2>Frequently Asked Questions <br> About Coaching</h2>
+    </div>
+
+    <div class="about-coachings">
+        <div class="asked-questions">
+            <div class="asked-question">
+                <div class="questions-mark" style="background: #b68383;">?</div>
+                <div class="frequently">
+                    <h3>What is Coaching?</h3>
+                    <p>Business coaching helps individuals and companies grow by improving leadership, decision-making, and business strategy through structured conversations and accountability.</p>
+                </div>
+            </div>
+
+            <div class="asked-question">
+                <div class="questions-mark" style="background-color: #dfa4a4;">?</div>
+                <div class="frequently">
+                    <h3>What should I look for in a Coach?</h3>
+                    <p>When choosing a coach—whether for business, leadership, or personal development—it’s essential to find someone who fits your goals, values, and working style.</p>
+                </div>
+            </div>
+
+            <div class="asked-question">
+                <div class="questions-mark" style="background: #acafb4;">?</div>
+                <div class="frequently">
+                    <h3>What can I expect from the Coaching Process?</h3>
+                    <p>Coaching is a collaborative and dynamic experience. You can expect open conversations that clarify goals, uncover obstacles, and build strategies for success. Many clients describe it as motivating, empowering, and transformative—helping them achieve results they couldn’t reach alone.</p>
+                </div>
+            </div>
+
+            <div class="asked-question">
+                <div class="questions-mark" style="background: #99a0ac;">?</div>
+                <div class="frequently">
+                    <h3>How long is a typical coaching engagement?</h3>
+                    <p>A coaching journey often begins with a complimentary or short introductory session to explore fit, goals, and approach. Engagements can range from a few targeted sessions (for specific challenges) to several months or longer (for deeper personal or professional development).</p>
+                </div>
+            </div>
+
+            <div class="asked-question">
+                <div class="questions-mark" style="background: #c77a7a;">?</div>
+                <div class="frequently">
+                    <h3>What are the top 5 topics people typically work on in coaching?</h3>
+                    <p>The most common focus areas include: Developing authentic leadership style, Leading and managing teams effectively, Improving communication and feedback skills, Navigating conflict and setting boundaries, Building confidence, resilience, and influence.</p>
+                </div>
+            </div>
+
+            <div class="asked-question">
+                <div class="questions-mark" style="background: #acafb4;">?</div>
+                <div class="frequently">
+                    <h3>Who can benefit from coaching?</h3>
+                    <p>Anyone seeking growth, clarity, or change can benefit from coaching. Whether you’re a leader aiming to strengthen your impact, a professional navigating career transitions, or someone wanting to build confidence and balance, coaching provides tools and support to help you move forward with purpose.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="display: flex;align-items: center;justify-content: center;margin-top: 50px;">
+        <button class="search-btn">Search Coaches</button>
+    </div>
+</body>
+</html>
